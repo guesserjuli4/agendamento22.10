@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Agenda</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <h2>Cadastro de Agenda</h2>
+    <form action="cadastrar_agenda.php" method="post">
+    
+        <label for="idagenda">Idagenda:</label>
+        <input type="number" id="idagenda" name="idagenda" required>
+        
+        <label for="nome_agenda">Nome agenda:</label>
+        <input type="text" id="nome_agenda" name="nome_agenda" required>
+        
+        <label for="diasemana">Diasemana:</label>
+        <input type="text" id="diasemana" name="diasemana" required>
+        
+        <label for="hora">Hora:</label>
+        <input type="text" id="hora" name="hora" required>
+        
+        <label for="disciplina">Disciplina:</label>
+        <input type="text" id="disciplina" name="disciplina" required>
+        
+        <label for="professor_responsavel">Professor responsavel:</label>
+        <input type="text" id="professor_responsavel" name="professor_responsavel" required>
+        
+        <label for="paciente_agendado">Paciente agendado:</label>
+        <input type="text" id="paciente_agendado" name="paciente_agendado" required>
+        
+        <label for="telefone_paciente">Telefone paciente:</label>
+        <input type="text" id="telefone_paciente" name="telefone_paciente" required>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
